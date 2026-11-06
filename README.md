@@ -10,6 +10,7 @@ I wanted to actually learn Git and GitHub by doing, instead of just reading abou
 - View all tasks with their completion status
 - Mark tasks as done
 - Tasks are saved to `tasks.txt` and loaded automatically when the program starts
+- Delete tasks.
 - Exit the program
 
 ## How to Run
@@ -37,6 +38,7 @@ If a line in the file is damaged, it is skipped with a warning and the remaining
 - `TaskStorage.java`: saves and loads the task list from a file
 - `Main.java`: handles the menu, user input, and program logic
 - `TaskTest.java`, `TaskStorageTest.java`: JUnit 5 tests
+- `TaskActions.java`: logic for deleting a task
 
 ## Running the Tests
 The project has JUnit 5 tests. In VS Code, open the Testing panel and click Run Tests.
